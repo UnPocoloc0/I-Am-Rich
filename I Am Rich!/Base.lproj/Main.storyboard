@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="l9G-kD-fHV">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="QJ2-uQ-jrn">
+            <objects>
+                <viewController id="l9G-kD-fHV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y7A-e5-PfH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="bTL-h3-qhT">
+                                <rect key="frame" x="85" y="165" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Qi4-r4-FUJ"/>
+                                    <constraint firstAttribute="width" constant="150" id="v4P-2N-xWu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Rich" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZD6-Dw-Vta">
+                                <rect key="frame" x="75.5" y="98" width="169" height="47"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" red="0.95686274509803915" green="0.61568627450980395" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86274509803921573" green="0.20784313725490194" blue="0.20784313725490194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bTL-h3-qhT" firstAttribute="centerY" secondItem="y7A-e5-PfH" secondAttribute="centerY" id="09T-nF-oP7"/>
+                            <constraint firstItem="bTL-h3-qhT" firstAttribute="centerY" secondItem="y7A-e5-PfH" secondAttribute="centerY" id="0ZB-BG-LFp"/>
+                            <constraint firstItem="ZD6-Dw-Vta" firstAttribute="centerX" secondItem="y7A-e5-PfH" secondAttribute="centerX" id="7PQ-8H-19R"/>
+                            <constraint firstItem="bTL-h3-qhT" firstAttribute="top" secondItem="ZD6-Dw-Vta" secondAttribute="bottom" constant="20" id="QzO-cb-tv1"/>
+                            <constraint firstItem="bTL-h3-qhT" firstAttribute="centerX" secondItem="y7A-e5-PfH" secondAttribute="centerX" id="Tpy-Aa-nHV"/>
+                            <constraint firstItem="bTL-h3-qhT" firstAttribute="centerX" secondItem="y7A-e5-PfH" secondAttribute="centerX" id="zgz-0d-x6g"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7oq-qu-dfP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EAy-r3-eNe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131" y="90"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="diamond" width="343" height="251"/>
+    </resources>
+</document>
